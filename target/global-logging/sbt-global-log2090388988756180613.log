@@ -1,0 +1,24 @@
+[debug] > Exec(test, None, None)
+[debug] Evaluating tasks: Test / test
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 1 Scala source to /home/mchana/scala-course/FizzBuzz/target/scala-2.13/classes ...
+[info] done compiling
+[info] compiling 1 Scala source to /home/mchana/scala-course/FizzBuzz/target/scala-2.13/test-classes ...
+[info] done compiling
+[info] FizzBuzzTest:
+[info] - lists the numbers up to one
+[info] - lists the numbers up to two
+[info] - lists the numbers up to three
+[info] - lists the numbers up to five
+[info] - lists the numbers up to seven
+[info] - lists the numbers up to nine
+[info] - lists the numbers up to thirteen
+[info] - lists the numbers up to fifteen
+[info] - lists the numbers up to one hundred
+[info] Run completed in 409 milliseconds.
+[info] Total number of tests run: 9
+[info] Suites: completed 1, aborted 0
+[info] Tests: succeeded 9, failed 0, canceled 0, ignored 0, pending 0
+[info] All tests passed.
+[success] Total time: 8 s, completed 16 Jul 2024, 15:40:48
+[debug] > Exec(idea-shell, None, None)

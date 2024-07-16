@@ -1,0 +1,30 @@
+[debug] [zinc] IncrementalCompile -----------
+[debug] IncrementalCompile.incrementalCompile
+[debug] previous = Stamps for: 2 products, 1 sources, 1 libraries
+[debug] current source = Set(${BASE}/src/main/scala/FizzBuzz.scala)
+[debug] > initialChanges = InitialChanges(Changes(added = Set(), removed = Set(), changed = Set(${BASE}/src/main/scala/FizzBuzz.scala), unmodified = ...),Set(${BASE}/target/scala-2.13/classes/FizzBuzz$.class, ${BASE}/target/scala-2.13/classes/FizzBuzz.class),Set(),API Changes: Set())
+[debug] 
+[debug] Initial source changes:
+[debug] 	removed: Set()
+[debug] 	added: Set()
+[debug] 	modified: Set(${BASE}/src/main/scala/FizzBuzz.scala)
+[debug] Invalidated products: Set(${BASE}/target/scala-2.13/classes/FizzBuzz$.class, ${BASE}/target/scala-2.13/classes/FizzBuzz.class)
+[debug] External API changes: API Changes: Set()
+[debug] Modified binary dependencies: Set()
+[debug] Initial directly invalidated classes: Set(FizzBuzz)
+[debug] Sources indirectly invalidated by:
+[debug] 	product: Set(${BASE}/src/main/scala/FizzBuzz.scala)
+[debug] 	binary dep: Set()
+[debug] 	external source: Set()
+[debug] all 1 sources are invalidated
+[debug] Initial set of included nodes: FizzBuzz
+[debug] Recompiling all sources: number of invalidated sources > 50.0 percent of all sources
+[debug] compilation cycle 1
+[info] compiling 1 Scala source to /home/mchana/scala-course/FizzBuzz/target/scala-2.13/classes ...
+[debug] Returning already retrieved and compiled bridge: /home/mchana/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala2-sbt-bridge/2.13.14/scala2-sbt-bridge-2.13.14.jar.
+[debug] [zinc] Running cached compiler 78dd8f45 for Scala compiler version 2.13.14
+[debug] [zinc] The Scala compiler is invoked with:
+[debug] 	-classpath
+[debug] 	/home/mchana/scala-course/FizzBuzz/target/scala-2.13/classes:/home/mchana/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.14/scala-library-2.13.14.jar
+[debug] Scala compilation took 4.353492834 s
+[info] done compiling
